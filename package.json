@@ -2,7 +2,6 @@
   "name": "blog-post",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alzizoomar.github.io/alzizoomar-blog.github.io/",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
