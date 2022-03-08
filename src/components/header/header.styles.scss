@@ -1,0 +1,28 @@
+@import '../../assets/styles/variables.scss';
+@import '../../assets/styles/mixins.scss';
+.MuiPaper-elevation4 {
+  box-shadow: none !important;
+  border-bottom: 1px solid #eee;
+}
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  svg {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .menu-item,
+  p {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: $color-title;
+    margin: 0 1rem;
+    &.active {
+      color: $color-primary;
+      font-weight: 600;
+    }
+  }
+}

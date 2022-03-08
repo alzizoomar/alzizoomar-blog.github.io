@@ -1,0 +1,44 @@
+.post-container {
+  margin-top: 10rem;
+  .comment-card {
+    &__details {
+      display: flex;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    &__info {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      &:hover {
+        background-color: transparent;
+      }
+      &.rtl {
+        margin-right: 2.4rem;
+        margin-left: 0;
+      }
+    }
+    &__form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      &-fields {
+        display: flex;
+        justify-content: space-between;
+      }
+      &-actions {
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        margin-top: 2rem;
+      }
+      &-action {
+        width: 30%;
+      }
+    }
+  }
+}

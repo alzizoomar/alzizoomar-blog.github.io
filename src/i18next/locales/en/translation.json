@@ -1,0 +1,36 @@
+{
+  "NAVIGATION": {
+    "HOME": "Home",
+    "FIND_INSTRUCTOR": "Private Sessions",
+    "COURSES": "Group Sessions"
+  },
+  "POSTS": {
+    "ID": "ID",
+    "TITLE": "Title",
+    "BODY": "Body",
+    "ADD_POST": "Add Post",
+    "EDIT_POST": "Edit Post",
+    "DELETE_POST": "Delete Post",
+    "VIEW_DETAILS": "View Details"
+  },
+  "POST": {
+    "TITLE": "Title",
+    "BODY": "Body",
+    "EMAIL": "Email",
+    "NAME": "Name",
+    "CANCEL": "Cancel",
+    "EDIT_COMMENT": "Edit Comment",
+    "SAVE_COMMENT": "Save Comment",
+    "ADD_COMMENT": "Add Comment",
+    "COMMENTS": "Comments",
+    "EDIT": "Edit",
+    "DELETE": "Delete"
+  },
+  "404": {
+    "NOT_FOUND": "Ooops! The page you are looking for could not be found 🚧 ☹️",
+    "BACK_HOME": "Back Home"
+  },
+  "NO_INTERNET": {
+    "TITLE": "You are offline. Check your internet connection."
+  }
+}

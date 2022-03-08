@@ -1,0 +1,43 @@
+.MuiDataGrid-root {
+  font-size: 1.4rem;
+  .MuiDataGrid-row:hover {
+    cursor: pointer;
+  }
+}
+
+.posts-container {
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  .data-grid {
+    width: 100%;
+  }
+
+  .post {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    &__actions {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+    }
+    &__form {
+      width: 100%;
+      &-fields {
+        display: flex;
+        justify-content: space-between;
+      }
+      &-field {
+        width: 45%;
+      }
+      &-actions {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+      }
+      &-action {
+        width: 30%;
+      }
+    }
+  }
+}
